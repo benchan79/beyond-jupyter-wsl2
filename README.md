@@ -1,13 +1,9 @@
-# Whodunit? 🕵️
+# Deploy a ML model with fastAPI and Docker
 
-A murder has been a committed in ML City at the Pandas Express!
+This is a simple example to deomnstarte how to deploy a webserver that hosts a predictive model trained on the [wine dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html#sklearn.datasets.load_wine) using [FastApi](https://fastapi.tiangolo.com/) and [Docker](https://www.docker.com/).
 
-To find out whodunit you will need to utilize your new command line, git, and Jupyter notebooks skills.  
+It leverages FastAPI's webserver functionalities to deploy a Deep Learning model and integrate the code with Docker so it is portable and can be deployed with more ease.
 
-To begin sluething:
-    <ol> 
-        <li>Open your Terminal.</li>
-        <li>Clone this repo.</li>
-        <li>Navigate to the reposititory and initate git.</li>
-        <li>Read the instructions located in the `instructions.md` file.</li>
-    </ol>
+The model is a simpler classifier that consists of a [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) and a [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) with a forest of 10 trees.
+
+Within the documentation, snippets of the files will be displayed with a description of what is going on.
